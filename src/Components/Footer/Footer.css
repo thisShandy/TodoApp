@@ -1,0 +1,36 @@
+.footer {
+    width: 100%;
+    display: flex;
+    margin: 20px 0;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff07;
+    backdrop-filter: blur(6px);
+    border-radius: 25px;
+    -webkit-box-shadow: 0 5px 15px 0 rgba(240, 248, 255, 0.1);
+    -moz-box-shadow: 0 5px 15px 0 rgba(240, 248, 255, 0.1);
+    box-shadow: 0 5px 15px 0 rgba(240, 248, 255, 0.1);
+}
+
+.toggler {
+    padding: 10px 20px;
+    margin: 15px;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid rgba(240, 248, 255, 1);
+    border-radius: 25px;
+    transition: background-color 0.25s;
+}
+
+.toggler:hover {
+    background-color: rgba(240, 248, 255, 0.1);
+    cursor: pointer;
+}
+
+.mode {
+    color: rgba(240, 248, 255, 1);
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12pt;
+    text-transform: uppercase;
+}

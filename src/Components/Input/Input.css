@@ -1,0 +1,52 @@
+.input-container {
+    display: flex;
+    margin: 50px 25px;
+    width: 100%;
+    background-color: #ffffff07;
+    backdrop-filter: blur(12px);
+    border-radius: 25px;
+    -webkit-box-shadow: 0 10px 15px 0 rgba(240, 248, 255, 0.1);
+    -moz-box-shadow: 0 10px 15px 0 rgba(240, 248, 255, 0.1);
+    box-shadow: 0 10px 15px 0 rgba(240, 248, 255, 0.1);
+}
+
+.input-text {
+    padding: 30px 35px;
+    font-size: 22pt;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-family: 'Fira Sans', sans-serif;
+    color: rgba(240, 248, 255, 1);
+    font-weight: 400;
+}
+
+.input-text::placeholder {
+    color: rgba(240, 248, 255, 0.7);
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+}
+
+.input-button {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.send-image {
+    width: 32px;
+    height: 32px;
+    background-color: rgba(240, 248, 255, 0.7);
+    mask: url('../../Images/send.svg') no-repeat center top / cover;
+    transition: background-color 0.25s;
+}
+
+.send-image:hover {
+    cursor: pointer;
+    background-color: rgba(240, 248, 255, 1);
+}

@@ -1,0 +1,51 @@
+.todo-container {
+    width: 60%;
+    margin: 25px auto;
+    display: flex;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff07;
+    backdrop-filter: blur(6px);
+    -webkit-box-shadow: 0 5px 15px 0 rgba(240, 248, 255, 0.1);
+    -moz-box-shadow: 0 5px 15px 0 rgba(240, 248, 255, 0.1);
+    box-shadow: 0 5px 15px 0 rgba(240, 248, 255, 0.1);
+}
+
+.name-container {
+    padding: 25px;
+    border-radius: 25px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+.todo-text {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    font-size: 22pt;
+}
+
+.todo-button {
+    width: 100%;
+    padding: 16px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+.todo-icon {
+    width: 32px;
+    height: 32px;
+    background-color: rgba(240, 248, 255, 0.7);
+    mask: url('../../Images/remove.svg') no-repeat center top / cover;
+    transition: background-color 0.25s;
+}
+
+.todo-icon:hover {
+    background-color: rgb(240, 248, 255);
+    cursor: pointer;
+}
